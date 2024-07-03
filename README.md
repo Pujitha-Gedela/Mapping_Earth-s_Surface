@@ -1,4 +1,4 @@
-Plotting coastlines and borders is handled by pygmt.Figure.coast. By The shorelines are divided in 4 levels: Cpastline, lakeshore, island in lake shore, lake in island in lake shore. 
+Plotting coastlines and borders is handled by pygmt.Figure.coast. By The shorelines are divided in 4 levels: Coastline, lakeshore, island in lake shore, lake in island in lake shore. 
 we can specify which level you want to plot by passing the level number and a GMT pen configuration. For example, to plot only coastlines with 0.5p thickness and black lines.The coastline database comes with 5 resolutions. The resolution drops by 80% between levels:
 Use the land and water parameters to specify a fill color for land and water bodies. The colors can be given by name or hex codes. Many of the plotting methods take the region parameter, which sets the area that will be shown in the figure.A string of coordinates can be passed to region, in the form of xmin/xmax/ymin/ymax.
 The coordinates can be passed to region as a list, in the form of [xmin, xmax, ymin, ymax].
